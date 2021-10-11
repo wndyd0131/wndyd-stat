@@ -1,0 +1,25 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "# wndyd-stat",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wndyd0131/wndyd-stat.git"
+  },
+  "bin": {
+    "stat": "./main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wndyd0131/wndyd-stat/issues"
+  },
+  "homepage": "https://github.com/wndyd0131/wndyd-stat#readme",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  }
+}
