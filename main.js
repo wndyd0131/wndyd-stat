@@ -27,6 +27,9 @@ switch(command){
   case "max":
     result = lib.max(numbers);
     break;
+  case "mean2":
+    result = lib.mean2(numbers);
+    break;
   default:
     console.log("Wrong command!");
     process.exit(1);
