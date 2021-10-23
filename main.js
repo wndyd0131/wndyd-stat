@@ -3,7 +3,7 @@
 //console.log(process.argv); //argument vector
 const lib = require("./lib");
 if (process.argv.length <= 3){
-  console.log("Insufficient parameter!"); //ex) node main.js sumÀº µÚ¿¡ ¼ýÀÚµéÀ» ÀÔ·ÂÇÏÁö ¾Ê¾Æ¼­ 3°³ÀÇ ÀÎÀÚ
+  console.log("Insufficient parameter!"); //ex) node main.js sumï¿½ï¿½ ï¿½Ú¿ï¿½ ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¾Æ¼ï¿½ 3ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
   process.exit(1);
 }
 
@@ -11,7 +11,7 @@ let command = process.argv[2];
 
 let numbers = process.argv.slice(3, process.argv.length).map((n) => parseFloat(n));
 
-if(numbers.some((n) => isNaN(n))){ //n == any: any Áß¿¡¼­ ÇÏ³ª¶óµµ NaNÀÌ¸é
+if(numbers.some((n) => isNaN(n))){ //n == any: any ï¿½ß¿ï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ NaNï¿½Ì¸ï¿½
   console.log("Some arguments are nott numbers!");
   process.exit(1);
 }
