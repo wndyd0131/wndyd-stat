@@ -27,7 +27,7 @@ switch(command){
   case "max":
     result = lib.max(numbers);
     break;
-  case "mean2": //error handling: must exist at least 1 for each, else exit
+  case "mean2":
     if(numbers.length % 2 !== 0){
       console.log("Number of the input must be even to use this function!");
       process.exit(1);
